@@ -12,13 +12,13 @@ export default {
   // daisyUI config (optional)
   daisyui: {
     styled: true,
-    themes: ["emerald"],
+    themes: true,
     base: true,
     utils: true,
     logs: true,
     rtl: false,
     prefix: "",
-    darkTheme: "dark",
+    darkTheme: "light",
   },
 
 }
