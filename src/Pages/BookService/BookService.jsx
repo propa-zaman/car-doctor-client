@@ -29,7 +29,7 @@ const BookService = () => {
 
         console.log(booking);
 
-        fetch('http://localhost:5002/bookings', {
+        fetch('https://car-doctor-server-gamma-dusky.vercel.app/bookings', {
             method: 'POST', 
             headers: {
                 'content-type': 'application/json'
